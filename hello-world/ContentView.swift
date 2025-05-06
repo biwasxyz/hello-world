@@ -15,11 +15,12 @@ struct ContentView: View {
                 .padding()
                 .bold()
                 .foregroundColor(.blue)
+            
+            TextField("What's on your mind?", text: .constant(""))
+                .foregroundColor(.black)
+                .padding()
         }
         
-        TextField("What's on your mind?", text: .constant(""))
-            .foregroundColor(.black)
-            .padding()
         Spacer()
         
     }
